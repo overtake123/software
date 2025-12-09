@@ -1,0 +1,46 @@
+
+.container.data-v-eae40a34 {
+  padding: 60rpx 40rpx;
+  background-color: #ffffff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.logo-box.data-v-eae40a34 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120rpx;
+  margin-bottom: 100rpx;
+}
+.logo.data-v-eae40a34 {
+  width: 150rpx;
+  height: 150rpx;
+  margin-bottom: 30rpx;
+}
+.title.data-v-eae40a34 {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.form-box.data-v-eae40a34 {
+  margin-bottom: 80rpx;
+}
+.btn-box.data-v-eae40a34 {
+  padding: 0 20rpx;
+}
+
+/* 密码输入框图标布局 */
+.input-wrapper.data-v-eae40a34 {
+  position: relative;
+}
+.password-row.data-v-eae40a34 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rpx 0;
+}
+.password-input.data-v-eae40a34 {
+  flex: 1;
+  margin-right: 20rpx;
+}
+

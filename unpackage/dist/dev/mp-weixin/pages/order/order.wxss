@@ -1,0 +1,23 @@
+.head-nav {
+  width: 80%;
+  margin: 20rpx auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.activite {
+  font-weight: bold;
+  border-bottom: 6rpx solid #0065d9;
+}
+.head-nav > view {
+  padding-bottom: 10rpx;
+}
+.box {
+  background: #008000;
+}
+.content {
+  height: 100vh;
+  background: #f4f4f5;
+  padding: 10rpx 24rpx;
+}
+

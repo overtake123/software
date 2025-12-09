@@ -1,0 +1,152 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarBackgroundColor": "#007aff",
+				"navigationBarTitleText": "用户登录",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarBackgroundColor": "#007aff",
+				"navigationBarTitleText": "信息化专业巡检",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/equipment/equipment",
+			"style" : 
+			{
+				"navigationBarBackgroundColor": "#007aff",
+				"navigationBarTitleText": "巡检设备",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarBackgroundColor": "#007aff",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarBackgroundColor": "#007aff",
+				"navigationBarTitleText": "工单",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/demo/demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/inspection/inspection",
+			"style" : 
+			{
+				"navigationBarBackgroundColor": "#007aff",
+				"navigationBarTitleText": "填写巡检",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/orderCreate/orderCreate",
+			"style" : 
+			{
+				"navigationBarBackgroundColor": "#007aff",
+				"navigationBarTitleText": "工单",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/inspectionRecords/inspectionRecords",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/inventory/inventory",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/orderPending/orderPending",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/orderCompleted/orderCompleted",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/orderPublished/orderPublished",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "/static/home.png",
+				"selectedIconPath": "/static/home_active.png"
+			},
+			{
+				"pagePath": "pages/equipment/equipment",
+				"text": "巡检设备",
+				"iconPath": "/static/equipment.png",
+				"selectedIconPath": "/static/equipment_active.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "工单",
+				"iconPath": "/static/order.png",
+				"selectedIconPath": "/static/order_active.png"
+			},
+			{
+				"pagePath": "pages/account/account",
+				"text": "我的",
+				"iconPath": "/static/account.png",
+				"selectedIconPath": "/static/account_active.png"
+			}
+		]
+	}
+
+}

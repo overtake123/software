@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#007aff",
+  "navigationBarTitleText": "工单",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-tag": "/uni_modules/uview-ui/components/u-tag/u-tag",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

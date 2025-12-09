@@ -1,0 +1,16 @@
+{
+  "navigationBarBackgroundColor": "#007aff",
+  "navigationBarTitleText": "信息化专业巡检",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-notice-bar": "/uni_modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
+    "u-col": "/uni_modules/uview-ui/components/u-col/u-col",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uni_modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

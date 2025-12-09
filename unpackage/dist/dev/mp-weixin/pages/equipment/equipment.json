@@ -1,0 +1,15 @@
+{
+  "navigationBarBackgroundColor": "#007aff",
+  "navigationBarTitleText": "巡检设备",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
+    "u-index-list": "/uni_modules/uview-ui/components/u-index-list/u-index-list",
+    "u-index-item": "/uni_modules/uview-ui/components/u-index-item/u-index-item",
+    "u-index-anchor": "/uni_modules/uview-ui/components/u-index-anchor/u-index-anchor",
+    "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell"
+  }
+}

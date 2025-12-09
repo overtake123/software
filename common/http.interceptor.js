@@ -1,1 +1,0 @@
-console.log(uni.$u.trim(' abc ')); // 去除两端空格
